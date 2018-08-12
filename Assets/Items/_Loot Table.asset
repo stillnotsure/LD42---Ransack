@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b5646d99089d7449e7b431227cefca, type: 3}
+  m_Name: _Loot Table
+  m_EditorClassIdentifier: 
+  itemDropRates:
+  - item: {fileID: 114225329390005106, guid: 0b8220449f923eb4898b784511294aef, type: 2}
+    scoreThreshold: 0
+    chances: 8
+  - item: {fileID: 114230037227548900, guid: 2a4d4668da27aaf47a04bd8fabdb3037, type: 2}
+    scoreThreshold: 10
+    chances: 4
+  - item: {fileID: 114034782873111298, guid: d079d632418c2f145a0958b6782f2ad9, type: 2}
+    scoreThreshold: 0
+    chances: 3
+  - item: {fileID: 114165560980055950, guid: 381f5f554b1e2f246bdfb3a8ad34b8ad, type: 2}
+    scoreThreshold: 0
+    chances: 3
+  - item: {fileID: 114010008461457718, guid: d90a62ebe8f3f7b40bbfaffb9f47f826, type: 2}
+    scoreThreshold: 100
+    chances: 3
+  - item: {fileID: 114444092756972016, guid: cae013055722d1a4bae8bfda07adf620, type: 2}
+    scoreThreshold: 100
+    chances: 4
+  - item: {fileID: 114165560980055950, guid: 9749e791d2ced1640a3619c6c1ff546c, type: 2}
+    scoreThreshold: 100
+    chances: 3
+  - item: {fileID: 114034782873111298, guid: a1695f28d896ae14d99e782341a5f570, type: 2}
+    scoreThreshold: 150
+    chances: 4
+  - item: {fileID: 114165560980055950, guid: 54011acd236f83143925f26ffc5fe4e7, type: 2}
+    scoreThreshold: 300
+    chances: 2
